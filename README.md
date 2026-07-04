@@ -38,4 +38,4 @@ $ start ./target/release/cellular [options]
 | `-c` | `--crossover`   | 0 <= `n`            | Number of crossovers to do when "breeding" two existing rules                  | 1                  |
 | `-v` | `--verbosity`   | 0 <= `n` <= 3        | Verbosity of output                                                            | 0                  |
 
-**Note:** The size of each world (149 cells) and the lookaround range (3 cells) are hard-coded as constants for optimisation reasons. They can be edited in `src/main.rs`.
+**Note:** The size of each world (149 cells) and the lookaround range (3 cells) are hard-coded as constants for optimisation reasons. They can be edited in `src/algo.rs`.
